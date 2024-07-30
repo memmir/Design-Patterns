@@ -46,7 +46,7 @@ class PrototypeMain {
         prototype2.setField1("Changed Value 1");
         prototype2.setField2("Changed value 2");
 
-        System.out.println(String.format("Original instance field1: %s - field2: %s", prototype2.getField1(), prototype2.getField2()));
+        System.out.println(String.format("Changed instance field1: %s - field2: %s", prototype2.getField1(), prototype2.getField2()));
         System.out.println(String.format("Original instance field1: %s - field2: %s", prototype1.getField1(), prototype1.getField2()));
 
 
